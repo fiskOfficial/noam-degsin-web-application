@@ -1,0 +1,35 @@
+.mainDiv {
+    width: 100%;
+    display: flex;
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.leftyD {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+
+}
+
+.rightyD {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightyD > img {
+    height: inherit;
+    height: 100%;
+    width: 70%;
+}
+
+.messingWithNoamImg {
+    border-radius: 20px 0 0 20px;
+}
